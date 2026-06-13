@@ -9,7 +9,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://cinematch.vercel.app",
+    "https://cinematch-jbgl.vercel.app",
     /\.vercel\.app$/
   ],
   credentials: true
