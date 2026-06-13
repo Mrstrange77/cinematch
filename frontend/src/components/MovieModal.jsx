@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { getMovieDetail, getSuggestions } from "../services/tmdb";
 import MovieCard from "./MovieCard";
-import StarRating from "./StarRating";
+//import StarRating from "./StarRating";
 import TrailerModal from "./TrailerModal";
 
 export default function MovieModal({ movie, onClose, onMovieClick }) {
