@@ -10,7 +10,6 @@ app.use(cors({
   origin: [
     "http://localhost:5173",
     "https://cinematch-jbgl.vercel.app",
-    /\.vercel\.app$/
   ],
   credentials: true
 }));
