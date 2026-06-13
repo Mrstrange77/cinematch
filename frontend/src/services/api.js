@@ -1,8 +1,9 @@
 import axios from "axios";
 
-const api = axios.create({ baseURL: "http://localhost:5000/api" });
+const api = axios.create({ 
+  baseURL: "https://cinematch-6823.onrender.com/api"
+});
 
-// Automatically attach auth token to every request if logged in
 api.interceptors.request.use((config) => {
   const token = localStorage.getItem("token");
   if (token) config.headers.Authorization = `Bearer ${token}`;
